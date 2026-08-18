@@ -1,0 +1,113 @@
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .options a i {color: #fff;}
+        .options a:hover i {color: #fff;}
+
+        /* =========================
+        SKILLS SECTION
+        ========================= */
+
+        .skills_section {
+            background-color: #222831;
+            color: #ffffff;
+            padding: 80px 0;
+        }
+
+        .skills_section .heading_container h2 {
+            color: #ffffff;
+        }
+
+
+        /* Filter menu */
+
+        .skills_filters_menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 30px 0 40px 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .skills_filters_menu li {
+            cursor: pointer;
+            padding: 8px 18px;
+            border-radius: 20px;
+            color: #ffffff;
+            font-size: 16px;
+            transition: all 0.2s;
+        }
+
+        .skills_filters_menu li:hover,
+        .skills_filters_menu li.active {
+            background-color: #ffffff;
+            color: #222831;
+        }
+
+
+
+        /* Skill cards */
+
+        .skill_item {
+            background-color: #ffffff;
+            color: #222831;
+            border-radius: 12px;
+            padding: 18px 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            min-height: 60px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transition: 0.2s;
+        }
+
+        .skill_item:hover {
+            transform: translateY(-3px);
+        }
+
+        /* See More / See Less button */
+
+        .skills_more_container {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        #skillsMoreBtn {
+            background-color: transparent;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            padding: 8px 22px;
+            border-radius: 20px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        #skillsMoreBtn:hover {
+            background-color: #ffffff;
+            color: #222831;
+        }
+
+        .order_online {
+            background-color: #222831 !important;
+            color: #ffffff !important;
+            border-radius: 25px;
+        }
+
+        .order_online:hover {
+            background-color: #111111 !important;
+            color: #ffffff !important;
+        }
+
+        .order_online code {
+            color: #ffffff !important;
+        }
