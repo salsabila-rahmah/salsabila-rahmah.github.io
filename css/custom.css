@@ -111,3 +111,10 @@
         .order_online code {
             color: #ffffff !important;
         }
+
+/* Mobile navbar toggle */
+.custom_nav-container .navbar-toggler span,
+.custom_nav-container .navbar-toggler span::before,
+.custom_nav-container .navbar-toggler span::after {
+    background-color: #222831;
+}
