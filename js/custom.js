@@ -68,3 +68,39 @@ $(".client_owl-carousel").owlCarousel({
         }
     }
 });
+
+
+function goToTop(event) {
+    event.preventDefault();
+
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+    history.replaceState(null, '', '/');
+}
+
+
+
+// Back to Top Button
+window.addEventListener("scroll", function () {
+    const backToTop = document.getElementById("backToTop");
+
+    if (window.scrollY > 300) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+});
+
+document.getElementById("backToTop").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+    history.replaceState(null, "", "/");
+});
