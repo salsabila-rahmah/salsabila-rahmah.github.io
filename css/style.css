@@ -1005,3 +1005,40 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+/* Back to Top Button */
+#backToTop {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Show button after scrolling */
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Hover effect */
+#backToTop:hover {
+    color: #ffbe33;
+    transform: translateY(-3px);
+}
